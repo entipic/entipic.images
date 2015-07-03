@@ -23,6 +23,7 @@
   "dependencies": {
     "aws-sdk": "^2.1.35",
     "gm": "^1.18.1",
-    "dhash": "^0.0.3"
+    "dhash": "^0.0.3",
+    "entipic.core": "0.0.1"
   }
 }
