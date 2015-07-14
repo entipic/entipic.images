@@ -4,7 +4,12 @@
   "description": "entipic images manager",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.1.5"
   },
   "repository": {
     "type": "git",
@@ -22,8 +27,9 @@
   "homepage": "https://github.com/entipic/entipic.images",
   "dependencies": {
     "aws-sdk": "^2.1.35",
-    "gm": "^1.18.1",
     "dhash": "^0.0.3",
-    "entipic.core": "0.0.1"
+    "entipic.core": "^0.0.1",
+    "gm": "^1.18.1",
+    "imagemin": "^3.2.0"
   }
 }

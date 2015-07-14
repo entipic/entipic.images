@@ -1,3 +1,3 @@
 # entipic images
 
-Entipic images manager: resize, dhash, sizes.
+Entipic images manager: resize, dhash, min, sizes.
