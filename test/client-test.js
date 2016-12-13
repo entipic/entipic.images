@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 var images = require('../lib');
-var client = images.instance();
+var client = images.create();
 
 describe('Client', function() {
 	describe('formatKey', function() {

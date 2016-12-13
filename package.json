@@ -1,6 +1,6 @@
 {
   "name": "entipic.images",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "entipic images manager",
   "main": "./lib/index.js",
   "scripts": {
@@ -26,10 +26,11 @@
   "homepage": "https://github.com/entipic/entipic.images",
   "dependencies": {
     "aws-sdk": "^2.1.35",
+    "bluebird": "^3.4.6",
     "dhash": "^0.0.4",
-    "entipic.core": "^0.0.2",
     "gm": "^1.18.1",
-    "imagemin": "^3.2.0"
+    "imagemin": "^3.2.0",
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
