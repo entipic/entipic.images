@@ -1,6 +1,6 @@
 {
   "name": "entipic.images",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "entipic images manager",
   "main": "./lib/index.js",
   "scripts": {
